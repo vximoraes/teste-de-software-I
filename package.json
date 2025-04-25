@@ -1,0 +1,26 @@
+{
+  "name": "teste-de-software-i",
+  "version": "1.0.0",
+  "description": "Repositório destinado ao armazenamento de arquivos e conteúdos relacionados às aulas da disciplina Teste de Software I. 🇧🇷",
+  "main": "index.js",
+  "scripts": {
+    "test":"node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch":"node --experimental-vm-modules node_modules/jest/bin/jest.js --watchAll",
+    "test:coverage":"node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vximoraes/teste-de-software-I.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/vximoraes/teste-de-software-I/issues"
+  },
+  "homepage": "https://github.com/vximoraes/teste-de-software-I#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
